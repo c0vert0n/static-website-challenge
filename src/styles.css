@@ -17,6 +17,10 @@ a {
   display: flex;
   justify-content: space-evenly;
 }
+a:hover {
+  cursor: pointer;
+  color: rgb(149, 112, 243);
+}
 .nav-links {
   padding: 10px;
   display: flex;

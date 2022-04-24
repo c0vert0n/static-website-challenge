@@ -1,4 +1,25 @@
+body {
+  padding-top: 40px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(166, 226, 229) 0%,
+    rgb(198, 232, 221) 100.2%
+  );
+}
 h1 {
   text-align: center;
   color: rgb(67, 153, 245);
+}
+p {
+  padding: 20px;
+}
+a {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-links {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
